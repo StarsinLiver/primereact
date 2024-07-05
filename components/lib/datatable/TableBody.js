@@ -869,7 +869,7 @@ export const TableBody = React.memo(
 
         const bindDragSelectionEvents = () => {
             document.addEventListener('mousemove', onDragSelectionMouseMove);
-            document.addEventListener('mouseup', onDragSelectionMouseUp);
+            // document.addEventListener('mouseup', onDragSelectionMouseUp);
             document.body.appendChild(dragSelectionHelper.current);
         };
 
